@@ -1,0 +1,94 @@
+
+body
+{
+    font-family: "segoe ui light";
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home
+{
+    height: 630px;
+    background-image: url(images/shutterstock_277750193.jpg);
+    background-size: 100% 100%;
+}
+.home .caption
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home p
+{
+    font-size: 230%;
+font-family: 'Dancing Script', cursive;
+
+}
+.home .btns
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.home .btns button
+{
+    padding:  15px 28px;
+    background-color: #c1ab84;
+    border-radius: 8px;
+    border: none;
+   
+}
+.home .btns .btn-visit
+{
+    background-color: #fff;
+}
+.nav ul
+{
+    background-color:rgba(0,0,0,0.5);
+    list-style-type:none;
+    padding-left: 0;
+    display: flex;
+}
+
+.nav ul li
+{
+    padding: 15px;
+    margin-left: 10 ;
+    padding-top: 15px;
+}
+.nav ul li a
+{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+}
+.nav img
+{
+    height: 50px;
+    display: block;
+
+    
+}
+.nav .logo
+{
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+
+
+
+
+.out-door
+{
+    height: 350px;
+    background-image: url(images/bgs.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

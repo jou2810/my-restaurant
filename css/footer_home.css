@@ -1,0 +1,43 @@
+
+body
+{
+    font-family: "segoe ui light";
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.abouts
+{
+    background-color: gray;
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 15px;
+    margin: auto;
+}
+.subscribe {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+.abouts p{
+    font-size: 20px;
+    padding: 2px;
+}
+.abouts .email
+{
+    font-size: 20px;
+}
+.abouts .cr
+{
+    font-size: large;
+    font-weight: 400;
+}

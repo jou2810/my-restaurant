@@ -1,0 +1,56 @@
+body
+{
+    font-family: "segoe ui light";
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.discover
+{
+    overflow: hidden;
+   
+}
+
+.discover .chef
+{
+    background-color: yellow;
+    width: 30%;
+}
+.discover .chef img
+{
+    width: 100%;
+    float: left;
+}
+.discover .discover-chef
+{
+    padding: 198px 0px;
+    background-color: #fff;
+    width: 70%;
+    float: left;
+    text-align: center;
+    
+}
+.discover .discover-chef span
+{
+    color: #f2ce08; 
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+.discover .discover-chef p
+{
+    color: #868686;
+    padding: 40px;
+    font-size: 18px;
+}
+.discover .discover-chef button
+{
+    border: 2px solid #231f20;
+    background-color: transparent;
+    padding: 15px 20px;
+}
+

@@ -1,0 +1,114 @@
+
+body
+{
+    font-family: "segoe ui light";
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav ul
+{
+    background-color:rgba(0,0,0,0.8);
+    list-style-type:none;
+    padding-left: 0;
+    display: flex;
+}
+
+    
+.menu
+{
+    height: 530px;
+    background-size: 100% 100%;
+}
+.nav ul li
+{
+    padding: 15px;
+    margin-left: 10 ;
+    padding-top: 15px;
+}
+.nav ul li a
+{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+}
+.nav img
+{
+    height: 50px;
+    display: block;
+
+    
+}
+.nav .logo
+{
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+.slider
+{
+	width: 70%;
+	height: 500px;
+	margin: 50px auto;
+	animation-name: slider;
+	background-size: 100% 100%;
+	animation-duration: 10s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+@keyframes slider
+{
+	0%{background-image: url(images/bg2.jpg)}
+	30%{background-image: url(images/bg3.jpg)}
+	80%{background-image: url(images/bg4.jpg)}
+	100%{background-image: url(images/bg.jpg)}
+}
+
+.meals
+{
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.meals .item
+{
+    width: 25%;
+    text-align: center;
+    
+}
+.meals .meal img
+{
+    border-radius: 50%;
+}
+.meals .meal h2 ,.meals .meal p
+{
+    padding: 20px;
+}
+.meals .meal p
+{
+    color: #868686;
+}
+.brdr
+{
+    width: 25%;
+    height: 2px;
+    background-color: #ccc;
+    margin: auto;
+}
+/* how to do media query not working */
+ @media (max-width:1000px)
+ {
+    .item
+    {
+        width: 50%;
+    }
+ }
